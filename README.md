@@ -3,17 +3,17 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: When there are two boxes with two numbers and have the same number values in either column or row units, we know that no other box can have any of the number values from the naked twins. Having this constraint in mind, we can further reduce the number of possibilities to solve the puzzle.  
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Knowing that the diagonals are simply an addition to the unit constraints, I added the diagonal unit constraint to the unit list. That way it will be taken into account. As a result, the diagonal unit was used in the same way as the column, row, and square units across the program. 
 
 ### Install
 
 This project requires **Python 3**.
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 Please try using the environment we provided in the Anaconda lesson of the Nanodegree.
 
 ##### Optional: Pygame
